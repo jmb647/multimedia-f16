@@ -5,7 +5,7 @@ header {
   z-index: 500;
   box-shadow: 0 2px 10px #cecece;
   padding: 15px 0 8px 0;
-  background: #efefef;
+  background: #091c5a;
 }
 
 .branding {
@@ -45,24 +45,24 @@ nav li {
 }
 
 nav li a:link {
-  color: #091c5a;
+  color: #fff;
   text-decoration: none;
   outline: 0;
 }
 
 nav li a:visited {
-  color: #091c5a;
+  color: #08425A;
   text-decoration: none;
   outline: 0;
 }
 
 nav li a:hover {
-  color: #ff6600;
+  color: #264099;
   text-decoration: none;
 }
 
 nav li a:active {
-  color: #ff6600;
+  color: #091c5a;
   text-decoration: none;
 }
 
