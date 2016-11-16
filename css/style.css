@@ -18,7 +18,7 @@ header {
 }
 
 .branding a:link {
-  color: #fff;
+  color: #56627A;
   text-decoration: none;
   outline: 0;
 }
@@ -42,6 +42,7 @@ nav li {
   display: inline-block;
   padding-left: 20px;
   cursor: pointer;
+  color: #fff;
 }
 
 nav li a:link {
@@ -66,54 +67,126 @@ nav li a:active {
   text-decoration: none;
 }
 
-#news {
+#home {
   width: 100;
   padding: 100px 0;
   background-color: #000;
 }
 
-#news h3{
+#home h3{
   text-align: left;
   font-weight: 400;
   color: #fff;
 }
 
-#news p{
+#home p{
   margin-bottom: 20px;
   text-align: left;
   color: #fff;
 }
 
-#campaign {
+#what {
   width: 100;
   padding: 100px 0;
   background-color: #fff;
 }
 
-#campaign h3{
-  text-align: left;
+#what h3{
+  text-align: center;
   font-weight: 400;
 }
 
-#campaign p{
+#what p{
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
   
 }
 
-#about {
+#facts {
+  width: 100;
+  padding: 100px 0;
+  background: url(../images/texture.jpg);
+}
+
+#facts h3{
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+}
+
+#facts p{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+#before {
   width: 100;
   padding: 100px 0;
   background-color: #000;
 }
 
-#about h3{
-  text-align: left;
+#before h3{
+  text-align: center;
   font-weight: 400;
   color: #fff;
 }
 
-#about p{
+#before p{
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#how {
+  width: 100;
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+#how h3{
+  text-align: left;
+  font-weight: 400;
+}
+
+#how p{
+  margin-bottom: 20px;
+  text-align: left;
+  
+}
+
+#donate {
+  width: 100;
+  padding: 100px 0;
+  background-color: #000;
+}
+
+#donate h3{
+  text-align: cenetr;
+  font-weight: 400;
+  color: #fff;
+}
+
+#donate p{
+  margin-bottom: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+#subscribe {
+  width: 100;
+  padding: 100px 0;
+  background-color: #000;
+}
+
+#subscribe h3{
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+}
+
+#subscribe p{
   margin-bottom: 20px;
   text-align: left;
   color: #fff;
