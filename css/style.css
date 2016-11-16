@@ -117,7 +117,7 @@ nav li a:active {
 #facts p{
   margin-bottom: 20px;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 
@@ -142,7 +142,7 @@ nav li a:active {
 #how {
   width: 100;
   padding: 100px 0;
-  background-color: #fff;
+  background: url(../images/water.jpg);
 }
 
 #how h3{
