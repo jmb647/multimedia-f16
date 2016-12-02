@@ -73,9 +73,9 @@ nav li a:active {
   background-color: #000;
 }
 
-#home h3{
-  text-align: left;
-  font-weight: 400;
+#home h1{
+  text-align: center;
+  font-weight: 900;
   color: #fff;
 }
 
@@ -83,6 +83,7 @@ nav li a:active {
   margin-bottom: 20px;
   text-align: left;
   color: #fff;
+  font-weight: 400;
 }
 
 #what {
@@ -93,13 +94,13 @@ nav li a:active {
 
 #what h3{
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 #what p{
   margin-bottom: 20px;
   text-align: center;
-  
+  font-weight: 400;
 }
 
 #facts {
@@ -110,7 +111,7 @@ nav li a:active {
 
 #facts h3{
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   color: #000;
 }
 
@@ -118,26 +119,66 @@ nav li a:active {
   margin-bottom: 20px;
   text-align: center;
   color: #000;
+  font-weight: 400;
 }
 
+
+.fa-camera-retro {
+  margin: 86px 83px;
+  color: #00ccff;
+}
 
 #before {
-  width: 100;
-  padding: 100px 0;
-  background-color: #000;
+  width: 100%;
+  padding: 100px 0 90px;
+  background-color: #638787;
+  overflow: hidden;
 }
 
-#before h3{
+.before-title {
+  color: #ffffff;
   text-align: center;
+  line-height: 1.8em;
+  font-weight: 700;
+}
+
+.before-intro p {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
   font-weight: 400;
-  color: #fff;
 }
 
-#before p{
-  margin-bottom: 20px;
-  text-align: center;
-  color: #fff;
+.before-intro a:link {
+  text-decoration: none;
+  color: #ffffff;
 }
+
+.before-grid .columns_3 {
+  width: 300px;
+  padding: 0px;
+  border: 0;
+  border-radius: 5px;
+  height: 170px;
+  margin: 0 10px 0 10px;
+}
+
+.before-grid .columns_3 p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.before-grid {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+
+
 
 #how {
   width: 100;
@@ -147,67 +188,102 @@ nav li a:active {
 
 #how h3{
   text-align: left;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 #how p{
   margin-bottom: 20px;
   text-align: left;
+  font-weight: 400;
   
+}
+
+video {
+  width: 100%;
+  background-color: #000000;
+  padding: 100px 0;
 }
 
 #donate {
   width: 100;
   padding: 100px 0;
-  background-color: #000;
+  background-color: #fff;
 }
 
 #donate h3{
-  text-align: cenetr;
-  font-weight: 400;
-  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
 }
 
 #donate p{
   margin-bottom: 20px;
   text-align: left;
-  color: #fff;
+  color: #000;
+  font-weight: 400;
 }
 
 #subscribe {
   width: 100;
   padding: 100px 0;
-  background-color: #000;
+  background: url(../images/glacier.jpg);
 }
 
 #subscribe h3{
   text-align: center;
-  font-weight: 400;
-  color: #fff;
+  font-weight: 700;
+  color: #000;
 }
 
 #subscribe p{
   margin-bottom: 20px;
   text-align: left;
-  color: #fff;
+  color: #000;
+	font-weight: 400;
 }
 
-#footer {
-  width: 100;
-  padding: 100px 0;
-  background-color: #cecece;
+@font-face {
+      font-family: 'jb-iconfont';
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/jb-iconfont.eot?41952989');
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/jb-iconfont.eot?41952989#iefix') format('embedded-opentype'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/jb-iconfont.woff?41952989') format('woff'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/jb-iconfont.ttf?41952989') format('truetype'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/jb-iconfont.svg?41952989#jb-iconfont') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+#icon-font {
+  width:  100%;
+  padding:  50px 0;
+  background-color: #B3AEA8;
+}
+#icon-font p {
+  font-family:  "jb-iconfont";
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+#icon-font .icons {
+  font-family:  "jb-iconfont";
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.5;
+    color: #fff;
+}
+#icon-font .lg icon {
+  font-family:  "jb-iconfont";
+    text-align: center;
+    font-size: 83em;
+    line-height: 1.1;
+    color: #EB6361;
+    color: #E35252;
+}
+.icons p {
+  font-size: .8em;
 }
 
-#footer h1{
-  text-align: center;
-  font-weight: 300;
-  color: #000;
-}
-#footer p{
-  margin-bottom: 20px;
-  text-align: center;
-  color: #000;
-}
 
 
 /*
