@@ -73,7 +73,7 @@ nav li a:active {
   background-color: #000;
 }
 
-#home h1{
+#home h2{
   text-align: center;
   font-weight: 900;
   color: #fff;
@@ -92,7 +92,7 @@ nav li a:active {
   background-color: #fff;
 }
 
-#what h3{
+#what h2{
   text-align: center;
   font-weight: 700;
 }
@@ -109,7 +109,7 @@ nav li a:active {
   background: url(../images/texture.jpg);
 }
 
-#facts h3{
+#facts h2{
   text-align: center;
   font-weight: 700;
   color: #000;
@@ -186,7 +186,7 @@ nav li a:active {
   background: url(../images/water.jpg);
 }
 
-#how h3{
+#how h2{
   text-align: left;
   font-weight: 700;
 }
@@ -210,7 +210,7 @@ video {
   background-color: #fff;
 }
 
-#donate h3{
+#donate h2{
   text-align: center;
   font-weight: 700;
   color: #000;
@@ -223,24 +223,211 @@ video {
   font-weight: 400;
 }
 
-#subscribe {
+#memberships {
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color: #ffffff;
+	float: left;
+	background: url(../images/texture2.jpg);
+	}
+	
+#memberships h3 {
+	font-weight: 100;
+	color: #525252;
+	text-align: center;
+	}
+		
+#memberships p {
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #888888;
+	text-align: center;
+	}	
+	
+.membership-plans {
+	margin-top: 40px;
+	}
+	
+.membership-free,
+.membership-monthly,
+.membership-yearly {
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+	padding: 20px 0;
+	}
+	
+.membership-free {
+	background-color: #ffffff;
+	}
+	
+.membership-monthly {
+	background-color: #ffffff;
+	}
+	
+.membership-yearly {
+	background-color: #ffffff;
+	}
+	
+.membership-cost {
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #648888;
+	}
+	
+.membership-features {
+	font-size: 1.2em;
+	color: #000000;
+	text-align: center;
+	padding: 30px 0 20px 0;
+	background-color: #ffffff;
+	}
+	
+.membership-features ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 1.5;
+	}
+	
+.membership-features li {
+	list-style: none outside none;
+	padding: 0 20px 10px 20px;
+	}
+	
+.membership-btn {
+	margin: 30px auto;
+	}
+	
+.membership-btn a:link {
+	outline: 0;
+	border-radius: 5px;
+	background-color: #DC7435;
+	padding: 10px 30px;
+	font-size: .9em;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	}
+	
+.membership-btn a:visited {
+	color: #ffffff;
+	}
+	
+.membership-btn a:hover {
+	background-color: #EDAB83;
+	color: #dedede;
+	}
+	
+.membership-btn a:active {
+	color: #ababab;
+	}
+	
+
+#contact {
   width: 100;
   padding: 100px 0;
   background: url(../images/glacier.jpg);
 }
 
-#subscribe h3{
+#contact h2{
   text-align: center;
   font-weight: 700;
   color: #000;
 }
 
-#subscribe p{
+#contact p{
   margin-bottom: 20px;
   text-align: left;
   color: #000;
 	font-weight: 400;
 }
+
+#contact {
+	width: 100%;
+	padding: 100px 0 100px 0;
+	background-color: #6079a5;
+	float: left;
+	}
+	
+#contact h2 {
+	padding-bottom: 20px;
+	}
+		
+#contact p {
+	padding-top: 20px;
+	}	
+	
+.contact-form img {
+	width: 460px;
+	padding: 0;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 0.9em;
+	font-weight: 100;
+	color: #FFFFFF;
+	}
+	
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea
+.contact-form select {
+	font-weight: 100;
+	color: #888;
+	padding: 5px 5px 5px 10px;
+	border: 1px solid #6079a5;
+	height: 35px;
+	margin-bottom: 25px;
+	outline: 0 none;
+	width: 460px;
+	}
+	
+.contact-form textarea {
+	height: 200px;
+	}
+	
+#message {
+	height: 200px;
+	width: 935px;
+	}
+	
+.contact-form select {
+	text-indent: 0.01px;
+	text-overflow: '';
+	width: 100%;
+	height: 35px;
+	}
+	
+.city {
+	text-transform: uppercase;
+	font-weight: 900;
+	}
+	
+	
+.contact-form input.button {
+	width: 100px;
+	/*same as the height*/
+	height: 40px;
+	/*same as the width*/
+	background-color: #DC7435;
+
+	/*same colour as the background*/
+	color: #000000;
+	font-size: 1.1em;
+	webkit-appearence: none;
+	/*set the border-radius at half the width and height*/
+	webkit-border-radius: 35px;
+	moz-border-radius: 35px;
+	border-radius: 35px;
+	}
+	
+.contact-form input.button {
+	color: #000000;
+	}
+
 
 @font-face {
       font-family: 'jb-iconfont';
