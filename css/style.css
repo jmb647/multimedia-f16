@@ -86,6 +86,17 @@ nav li a:active {
   font-weight: 400;
 }
 
+#hero-slide {
+  margin-top: 79px;
+  width: 100%;
+  float: left;
+  box-shadow: 9px 2px 5px 2px rgba(0, 0, 0, 0.12);
+}
+#photo-products {
+  width: 100%;
+  padding: 100px 0;
+}
+
 #what {
   width: 100;
   padding: 100px 0;
@@ -160,6 +171,7 @@ nav li a:active {
   text-decoration: none;
   color: #ffffff;
 }
+.
 
 .before-grid .columns_3 {
   width: 300px;
@@ -167,7 +179,7 @@ nav li a:active {
   border: 0;
   border-radius: 5px;
   height: 170px;
-  margin: 0 10px 0 10px;
+	background-color: red;
 }
 
 .before-grid .columns_3 p {
@@ -242,12 +254,6 @@ video {
 	text-align: center;
 	}
 		
-#memberships p {
-	font-size: 1.5em;
-	font-weight: 100;
-	color: #888888;
-	text-align: center;
-	}	
 	
 .membership-plans {
 	margin-top: 40px;
