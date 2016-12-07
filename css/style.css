@@ -97,6 +97,11 @@ nav li a:active {
   font-weight: 700;
 }
 
+#what h3{
+  text-align: center;
+  font-weight: 700;
+}
+
 #what p{
   margin-bottom: 20px;
   text-align: center;
