@@ -16,12 +16,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/responsiveslides.css">
  </head>
 
   <body onload="createGridder()">
 
-    <header>
+  <header>
 
   
     
@@ -49,6 +50,31 @@
 <!-- end container -->
 </header>
 
+
+
+
+
+ <section id="hero-slide">
+  <div class="hero-slide-show">
+   <div class="type-overlay">
+      <h1>Climate Change Awareness</h1>
+    </div>
+    <ul class="rslides">
+  <li><img src="images/hero1.jpg" alt="Placeholder Picture"></li>
+  <li><img src="images/hero2.jpg" alt="Placeholder Picture"></li>
+  <li><img src="images/hero3.jpg" alt="Placeholder Picture"></li>
+  <li><img src="images/hero4.jpg" alt="Placeholder Picture"></li>
+</ul>
+  </div>
+</section>
+
+
+
+
+
+
+
+
   <!-- Simple Parallax for each picture / change number -----
 
   <!-- Simple Parallax add class and class="module content" ------>
@@ -56,15 +82,7 @@
   <div class="container">
     <div class="home-content" data-scroll-index="0">
     <h2>Home</h2>
-   <section id="hero-slide">
-  <div class="hero-slide-show">
-    <ul class="rslides">
-  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/hero-a.jpg" alt="Placeholder Picture"></li>
-  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/hero-b.jpg" alt="Placeholder Picture"></li>
-  <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/788826/hero-c.jpg" alt="Placeholder Picture"></li>
-</ul>
-  </div>
-</section>
+  
     </div>
 </section>
 
@@ -147,7 +165,7 @@ just 4.4 percent of the world’s…</p>
 	  <img src="images/mountain.svg"></img>
   </div>
     <div class="columns_3">
-       <img src="images/sun.svg"></img>
+      <img src="images/sun.svg"></img>
   </div>
       <div class="columns_3">
        <img src="images/fire.svg"></img>
@@ -291,7 +309,7 @@ grow...</p>
                         <li>• Invitation to exclusive events.</li>
                     </ul>
                     <div class="membership-btn"><a href="#" target="_blank">Sign up now!</a></div>
-                 </div>
+               </div>
              </div>
              <div class="columns_3">
             	<div class="membership-yearly">Platinum</div>
@@ -355,8 +373,38 @@ grow...</p>
 <script src="js/Chart.Doughnut.js"></script>
 <script src="js/Chart.js"></script>
 <script src="js/index.js"></script>
+<script src="js/lightbox.min.js"></script>
 
- <script>     
+
+	<script>
+	$(function(){
+$(".rslides").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: false,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+});
+ });
+	
+	
+	</script>
+
+
+
+
+<script>     
        $.scrollIt({
   upKey: 38,             // key code to navigate to the next section
   downKey: 40,           // key code to navigate to the previous section
@@ -367,39 +415,15 @@ grow...</p>
   topOffset: -140,           // offste (in px) for fixed top navigation
 });
 	</script>
-          
-<script>
-      var doughtnutData = [
  
-  {
-    value: 250,
-    color: "#E9E9EA",
-    hightlight: "#5AD3D1",
-    label:"Part 1: Logo (LD)"
-  }, {
-    value: 250,
-    color: "#DEDEDF",
-    hightlight: "#FFC870",
-    label:"Part 2: Stationery Design (SD)"
-  }, {
-    value: 400,
-    color: "#C3C2C3",
-    hightlight: "#A8B3C5",
-    label:"Part 3: Identity Manual (IM)"
-  }, {
-    value: 100,
-    color: "#AAAAAC",
-    hightlight: "#FF5A5E",
-    label:"Professionalism"
-  }
- 
-];
- 
-window.onload = function() {
-  var ctx = document.getElementById("chart-area").getContext("2d");
-  window.myDoughnut = new Chart (ctx).Doughnut(doughtnutData, { responsive: true                                                         });  
-};
-      </script>
+          <script>lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+
+	</script>    
+	     
+
     
     
   </body>

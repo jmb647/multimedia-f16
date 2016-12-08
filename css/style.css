@@ -97,6 +97,19 @@ nav li a:active {
   padding: 100px 0;
 }
 
+.type-overlay h1{
+  fnot-weight: 100;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  stroke: #000000;
+	
+}
+
 #what {
   width: 100;
   padding: 100px 0;
@@ -146,7 +159,7 @@ nav li a:active {
 
 #before {
   width: 100%;
-  padding: 100px 0 90px;
+  padding: 100px 0;
   background-color: #638787;
   overflow: hidden;
 }
